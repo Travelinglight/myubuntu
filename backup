@@ -1,0 +1,12 @@
+cp ../.bashrc ./
+cp -r ../.config ./
+cp -r ../.dbus ./
+cp -r ../.gconf ./
+cp -r ../.gnupg ./
+cp -r ../.vim ./
+cp -r ../.mozilla ./
+cp ../.gitconfig ./
+cp ../.ICEauthority ./
+cp ../.inputrc ./
+cp ../.profile ./
+cp ../.viminfo ./
