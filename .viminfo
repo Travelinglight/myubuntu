@@ -7,25 +7,10 @@
 
 # hlsearch on (H) or off (h):
 ~h
-# Last Search Pattern:
-~MSle0~/-z
-
-# Last Substitute Search Pattern:
-~MSle0&-z
-
-# Last Substitute String:
-$-Z
-
 # Command Line History (newest to oldest):
-:wq
 :q
-:q!q
-:w
-:%s/-z/-Z/g
-:q!
 
 # Search String History (newest to oldest):
-? -z
 
 # Expression History (newest to oldest):
 
@@ -34,257 +19,20 @@ $-Z
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	GRUB_GFXMODE=1024x768x32
-	GRUB_GFXPAYLOAD=keep
-"1	LINE	0
-	cp -r .././mozilla/ ./
-"2	LINE	0
-	cp -r ../.gnupg ./
-"3	LINE	0
-	cp -r ../.vim ./
-"4	CHAR	0
-	    for (i = 0; i < strlen(oristr); i++)
-	        printf("%c", oristr[i]);
-	    printf("\n");
-	
-""-	CHAR	0
-	/
 
 # File marks:
-'0  7  10  ~/myubuntu/backup
-'1  1  0  ~/myubuntu/haha.txt
-'2  1  3  ~/haha.txt
-'3  1  0  ~/myubuntu/backup
-'4  31  23  ~/Documents/CMPT300_Assignment/CMPT300_Assignment03/main.c
-'5  5  4  ~/Documents/CMPT300_Assignment/.gitignore
-'6  1  0  ~/Documents/CMPT300_Assignment/CMPT300_Assignment03/.gitignore
-'7  1  0  ~/Documents/CMPT300_Assignment/CMPT300_Assignment03/main.c
-'8  1  0  ~/.viminfo
-'9  1  0  ~/.bashrc
+'0  1  0  ~/myubuntu/myubuntu/.gitconfig
+'1  1  0  ~/myubuntu/myubuntu/.inputrc
 
 # Jumplist (newest first):
--'  7  10  ~/myubuntu/backup
--'  1  0  ~/myubuntu/backup
--'  1  0  ~/myubuntu/haha.txt
--'  1  3  ~/haha.txt
--'  31  23  ~/Documents/CMPT300_Assignment/CMPT300_Assignment03/main.c
--'  1  0  ~/Documents/CMPT300_Assignment/CMPT300_Assignment03/main.c
--'  5  4  ~/Documents/CMPT300_Assignment/.gitignore
--'  1  0  ~/Documents/CMPT300_Assignment/.gitignore
--'  1  0  ~/Documents/CMPT300_Assignment/CMPT300_Assignment03/.gitignore
--'  1  0  ~/.viminfo
--'  1  0  ~/.bashrc
--'  19  0  ~/Documents/CMPT300/ASS2/CMPT300_Assignment02/lyreegg.c
--'  1  0  ~/Documents/CMPT300/ASS2/CMPT300_Assignment02/lyreegg.c
--'  1  0  ~/Documents/CMPT300/ASS2/CMPT300_Assignment02/README
--'  1  0  ~/Documents/CMPT300/ASS2/test/compare.sh
--'  8  0  ~/Documents/CMPT300/ASS2/test/compare.sh
--'  5  0  ~/Documents/CMPT300/ASS2/test/compare.sh
--'  22  56  ~/Documents/CMPT300/ASS2/CMPT300_Assignment02/main.c
--'  1  0  ~/Documents/CMPT300/ASS2/CMPT300_Assignment02/main.c
--'  1  0  ~/Documents/CMPT300/ASS2/test/config_file.txt
--'  31  4  ~/Documents/CMPT300/ASS2/CMPT300_Assignment02/main.c
--'  36  7  ~/Documents/CMPT300/ASS2/CMPT300_Assignment02/.gitignore
--'  1  0  ~/Documents/CMPT300/ASS2/CMPT300_Assignment02/.gitignore
--'  1  28  ~/.inputrc
--'  64  0  ~/Assignments/CMPT_300/tempuse/src/decrypt.c
--'  1  0  ~/Assignments/CMPT_300/tempuse/src/decrypt.c
--'  34  0  ~/Assignments/CMPT_300/tempuse/src/decrypt.c
--'  53  1  ~/Assignments/CMPT_300/tempuse/src/decrypt.c
--'  1  0  ~/Research/Postgres2015/iknn-LP/c/makefile
--'  13  20  /etc/default/grub
--'  1  0  /etc/default/grub
--'  15  0  /etc/default/grub
--'  38  0  /etc/default/grub
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  36  0  /etc/default/grub
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  13  20  /etc/default/grub
--'  1  0  /etc/default/grub
--'  15  0  /etc/default/grub
--'  38  0  /etc/default/grub
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  36  0  /etc/default/grub
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  13  20  /etc/default/grub
--'  1  0  /etc/default/grub
--'  15  0  /etc/default/grub
--'  38  0  /etc/default/grub
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  36  0  /etc/default/grub
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
--'  1  0  /etc/X11/xorg.conf.XXXXXXXX
--'  13  20  /etc/default/grub
--'  1  0  /etc/default/grub
--'  15  0  /etc/default/grub
--'  38  0  /etc/default/grub
--'  22  0  /etc/X11/xorg.conf.XXXXXXXX
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
 
 # History of marks within files (newest to oldest):
 
-> ~/myubuntu/backup
-	"	7	10
-	^	12	17
-	.	7	10
-	+	2	19
-	+	9	5
-	+	11	22
-	+	12	0
-	+	6	0
-	+	9	0
-	+	5	0
-	+	11	0
-	+	7	10
-
-> ~/.profile
+> ~/myubuntu/myubuntu/.gitconfig
 	"	1	0
 
-> ~/.ICEauthority
+> ~/myubuntu/myubuntu/.inputrc
 	"	1	0
-
-> ~/.gitconfig
-	"	1	0
-
-> ~/.bashrc
-	"	1	0
-
-> ~/.bash_logout
-	"	1	0
-
-> ~/.bash_history
-	"	1	0
-
-> ~/myubuntu/haha.txt
-	"	1	0
-
-> ~/haha.txt
-	"	1	3
-	^	1	4
-	.	1	3
-	+	1	3
-
-> ~/Documents/CMPT300_Assignment/CMPT300_Assignment03/main.c
-	"	31	23
-	^	31	24
-	.	31	23
-	+	31	23
-
-> ~/Documents/CMPT300_Assignment/.gitignore
-	"	5	4
-	^	5	5
-	.	5	4
-	+	5	4
-
-> ~/Documents/CMPT300_Assignment/CMPT300_Assignment03/.gitignore
-	"	1	0
-
-> ~/.viminfo
-	"	1	0
-
-> ~/Documents/CMPT300/ASS2/CMPT300_Assignment02/lyreegg.c
-	"	19	0
-
-> ~/Documents/CMPT300/ASS2/CMPT300_Assignment02/README
-	"	1	0
-
-> ~/Documents/CMPT300/ASS2/test/compare.sh
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/Documents/CMPT300/ASS2/CMPT300_Assignment02/main.c
-	"	22	56
-	^	22	57
-	.	22	56
-	+	22	56
-
-> ~/Documents/CMPT300/ASS2/test/config_file.txt
-	"	1	0
-
-> ~/Documents/CMPT300/ASS2/CMPT300_Assignment02/.gitignore
-	"	36	7
-	^	36	8
-	.	36	7
-	+	36	7
-
-> ~/.inputrc
-	"	1	28
-	^	1	29
-	.	1	28
-	+	1	28
-
-> ~/Assignments/CMPT_300/tempuse/src/decrypt.c
-	"	64	0
-	^	53	2
-	.	34	0
-	+	7	1
-	+	25	1
-	+	61	1
-	+	53	1
-	+	34	0
-
-> ~/Research/Postgres2015/iknn-LP/c/makefile
-	"	1	0
-
-> /etc/default/grub
-	"	13	20
-	^	13	21
-	.	13	20
-	+	13	24
-	+	16	19
-	+	13	0
-	+	14	20
-	+	13	20
-
-> /etc/X11/xorg.conf.XXXXXXXX
-	"	22	0
-	^	22	1
-	.	22	0
-	+	3	0
-	+	2	66
-	+	16	9
-	+	15	28
-	+	23	9
-	+	22	0
