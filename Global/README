@@ -1,0 +1,5 @@
+/* resolution */
+/etc/default/grub
+run command: sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+

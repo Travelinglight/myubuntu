@@ -10,3 +10,4 @@ cp ../.ICEauthority ./
 cp ../.inputrc ./
 cp ../.profile ./
 cp ../.viminfo ./
+cp /etc/default/grub ./Global/

@@ -8,7 +8,10 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:wq
 :q
+:q!
+:set nu
 
 # Search String History (newest to oldest):
 
@@ -21,15 +24,135 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/myubuntu/myubuntu/.gitconfig
-'1  1  0  ~/myubuntu/myubuntu/.inputrc
+'0  13  29  ~/myubuntu/backup
+'1  1  0  /etc/default/grub
+'2  14  25  /etc/default/grub
+'3  18  25  /etc/default/grub
+'4  1  0  /etc/X11/Xwrapper.config
+'5  1  0  ~/myubuntu/.inputrc
+'6  1  0  ~/myubuntu/myubuntu/.gitconfig
+'7  1  0  ~/myubuntu/myubuntu/.inputrc
 
 # Jumplist (newest first):
+-'  13  29  ~/myubuntu/backup
+-'  1  0  ~/myubuntu/backup
+-'  1  0  /etc/default/grub
+-'  14  25  /etc/default/grub
+-'  18  25  /etc/default/grub
+-'  40  0  /etc/default/grub
+-'  1  0  /etc/X11/Xwrapper.config
+-'  1  0  ~/myubuntu/.inputrc
 -'  1  0  ~/myubuntu/myubuntu/.gitconfig
 -'  1  0  ~/myubuntu/myubuntu/.inputrc
 -'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  /etc/X11/Xwrapper.config
+-'  1  0  ~/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  16  25  /etc/default/grub
+-'  38  0  /etc/default/grub
+-'  1  0  /etc/X11/Xwrapper.config
+-'  1  0  ~/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  /etc/X11/Xwrapper.config
+-'  1  0  ~/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  /etc/X11/Xwrapper.config
+-'  1  0  ~/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  /etc/X11/Xwrapper.config
+-'  1  0  ~/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.gitconfig
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  ~/myubuntu/myubuntu/.inputrc
+-'  1  0  /etc/default/grub
+-'  14  25  /etc/default/grub
+-'  18  25  /etc/default/grub
 
 # History of marks within files (newest to oldest):
+
+> ~/myubuntu/backup
+	"	13	29
+	^	13	30
+	.	13	29
+	+	13	29
+
+> /etc/default/grub
+	"	1	0
+	^	14	26
+	.	14	25
+	+	18	25
+	+	14	25
+
+> /etc/X11/Xwrapper.config
+	"	1	0
+
+> ~/myubuntu/.inputrc
+	"	1	0
 
 > ~/myubuntu/myubuntu/.gitconfig
 	"	1	0
