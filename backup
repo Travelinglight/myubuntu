@@ -5,9 +5,13 @@ cp -r ../.gconf ./
 cp -r ../.gnupg ./
 cp -r ../.vim ./
 cp -r ../.mozilla ./
+cp -r ../.pyenv ./
 cp ../.gitconfig ./
 cp ../.ICEauthority ./
 cp ../.inputrc ./
 cp ../.profile ./
 cp ../.viminfo ./
+cp ../.vimrc ./
+cp ../.zshrc ./
+
 cp /etc/default/grub ./Global/

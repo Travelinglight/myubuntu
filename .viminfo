@@ -7,13 +7,21 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/FFFFFF
+
 # Command Line History (newest to oldest):
 :wq
+:w
 :q
 :q!
 :set nu
 
 # Search String History (newest to oldest):
+?/FFFFFF
+?/autojump
+?/auto
+?/plugin
 
 # Expression History (newest to oldest):
 
@@ -22,20 +30,72 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+"0	CHAR	0
+	" indent
+	set expandtab
+	set shiftwidth=4
+	set tabstop=4
+	set autoindent
+	set cindent
+	
+""1	LINE	0
+	    let g:indentLine_color_dark = 1 " (default: 2)
+"2	LINE	0
+	    let g:indentLine_color_tty_light = 7 " (default: 4)
+"3	LINE	0
+	    pids = (int*)calloc(nLine, sizeof(int));
+"4	LINE	0
+	
+"5	LINE	0
+	
+"6	LINE	0
+	alias md='/opt/homebrew-cask/Caskroom/macdown/latest/MacDown.app/Contents/MacOS/MacDown'
+"-	CHAR	0
+	0
 
 # File marks:
-'0  13  29  ~/myubuntu/backup
-'1  1  0  /etc/default/grub
-'2  14  25  /etc/default/grub
-'3  18  25  /etc/default/grub
-'4  1  0  /etc/X11/Xwrapper.config
-'5  1  0  ~/myubuntu/.inputrc
-'6  1  0  ~/myubuntu/myubuntu/.gitconfig
-'7  1  0  ~/myubuntu/myubuntu/.inputrc
+'0  10  17  ~/myubuntu/backup
+'1  31  0  ~/.vimrc
+'2  33  4  ~/.vimrc
+'3  32  40  ~/.vimrc
+'4  1  0  ~/.vimrc
+'5  23  26  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+'6  46  30  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+'7  34  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+'8  1  0  ~/.vim/colors/wombat256mod.vim
+'9  8  11  ~/.vimrc
 
 # Jumplist (newest first):
--'  13  29  ~/myubuntu/backup
+-'  10  17  ~/myubuntu/backup
 -'  1  0  ~/myubuntu/backup
+-'  31  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  33  4  ~/.vimrc
+-'  32  41  ~/.vimrc
+-'  23  26  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  1  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  46  30  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  34  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  1  0  ~/.vim/colors/wombat256mod.vim
+-'  8  11  ~/.vimrc
+-'  61  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  1  0  ~/.pyenv/version
+-'  1  0  ~/.zshrc
+-'  103  0  ~/.zshrc
+-'  187  0  ~/pyenv/README.md
+-'  1  0  ~/pyenv/README.md
+-'  1  0  ~/Downloads/.zshrc
+-'  83  0  ~/.zshrc
+-'  85  0  ~/.zshrc
+-'  2  0  ~/.zshrc
+-'  60  38  ~/.zshrc
+-'  17  52  ~/.zshrc
+-'  57  0  ~/.zshrc
+-'  52  44  ~/.zshrc
+-'  8  18  ~/.zshrc
+-'  48  8  ~/.zshrc
+-'  20  0  ~/.zshrc
+-'  17  29  ~/myubuntu/backup
 -'  1  0  /etc/default/grub
 -'  14  25  /etc/default/grub
 -'  18  25  /etc/default/grub
@@ -99,47 +159,91 @@
 -'  1  0  ~/myubuntu/myubuntu/.gitconfig
 -'  1  0  ~/myubuntu/myubuntu/.inputrc
 -'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  /etc/X11/Xwrapper.config
--'  1  0  ~/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  /etc/X11/Xwrapper.config
--'  1  0  ~/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  /etc/default/grub
--'  14  25  /etc/default/grub
--'  18  25  /etc/default/grub
+-'  34  41  ~/.vimrc
+-'  23  26  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  31  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  33  4  ~/.vimrc
 
 # History of marks within files (newest to oldest):
 
 > ~/myubuntu/backup
-	"	13	29
-	^	13	30
-	.	13	29
-	+	13	29
+	"	10	17
+	^	8	18
+	.	8	17
+	+	17	29
+	+	13	17
+	+	14	15
+	+	15	14
+	+	8	17
+
+> ~/.vimrc
+	"	31	0
+	^	31	37
+	.	31	36
+	+	1	1
+	+	1	16
+	+	5	25
+	+	8	0
+	+	69	0
+	+	29	29
+	+	30	0
+	+	10	0
+	+	11	0
+	+	6	0
+	+	32	40
+	+	31	36
+	+	32	50
+	+	32	50
+	+	32	50
+	+	32	50
+	+	32	0
+	+	33	0
+	+	31	36
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+	"	23	26
+	^	45	31
+	.	45	30
+	+	59	0
+	+	46	28
+	+	45	30
+
+> ~/Downloads/.vimrc
+	"	1	0
+	.	62	0
+	+	62	0
+
+> ~/.vim/colors/wombat256mod.vim
+	"	1	0
+
+> ~/.pyenv/version
+	"	1	0
+
+> ~/.zshrc
+	"	1	0
+	.	89	15
+	+	61	0
+	+	52	35
+	+	8	18
+	+	52	36
+	+	61	0
+	+	57	0
+	+	60	38
+	+	100	47
+	+	98	21
+	+	96	0
+	+	100	0
+	+	90	28
+	+	91	0
+	+	88	15
+	+	89	15
+
+> ~/pyenv/README.md
+	"	187	0
+
+> ~/Downloads/.zshrc
+	"	1	0
 
 > /etc/default/grub
 	"	1	0
