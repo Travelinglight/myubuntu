@@ -8,20 +8,20 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/FFFFFF
+~MSle0~/time
+
+# Last Substitute Search Pattern:
+~MSle0&*
+
+# Last Substitute String:
+$
 
 # Command Line History (newest to oldest):
+:q
 :wq
 :w
-:q
-:q!
-:set nu
 
 # Search String History (newest to oldest):
-?/FFFFFF
-?/autojump
-?/auto
-?/plugin
 
 # Expression History (newest to oldest):
 
@@ -30,145 +30,158 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	" indent
-	set expandtab
-	set shiftwidth=4
-	set tabstop=4
-	set autoindent
-	set cindent
-	
+"0	LINE	0
+	            freemem(nLine, nCore, pids, crtpos, p2cFD, c2pFD, time_str, buff, encpt, decpt, rrQueue);
 ""1	LINE	0
-	    let g:indentLine_color_dark = 1 " (default: 2)
-"2	LINE	0
-	    let g:indentLine_color_tty_light = 7 " (default: 4)
+	
+"2	CHAR	0
+	        // reset file pointer to config lines
+	        fseek(fp, 0, SEEK_SET);
+	        fgets(buff, MAX_BUFF, fp);
+	
 "3	LINE	0
-	    pids = (int*)calloc(nLine, sizeof(int));
-"4	LINE	0
 	
+"4	CHAR	0
+	        else if (selectRes < 0) {   // select error occurred
+	            continue;
+	        }
+	        else {  // nothing seleted
+	            continue;
+	        }
 "5	LINE	0
-	
+	            printf("[%s] Child process ID #%d created.\n", time_str, c_pid);
 "6	LINE	0
-	alias md='/opt/homebrew-cask/Caskroom/macdown/latest/MacDown.app/Contents/MacOS/MacDown'
+	            gettime(time_str);
+"7	LINE	0
+	            // free all malloced arrays before exiting
+"8	LINE	0
+	
+"9	LINE	0
+	            // free resources
+"a@	CHAR	0
+	i//0j
+"b	CHAR	0
+	d d j
 "-	CHAR	0
-	0
+	 char *time_str,
 
 # File marks:
-'0  10  17  ~/myubuntu/backup
-'1  31  0  ~/.vimrc
-'2  33  4  ~/.vimrc
-'3  32  40  ~/.vimrc
-'4  1  0  ~/.vimrc
-'5  23  26  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
-'6  46  30  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
-'7  34  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
-'8  1  0  ~/.vim/colors/wombat256mod.vim
-'9  8  11  ~/.vimrc
+'0  11  0  ~/myubuntu/backup
+'1  1  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/lyreegg.h
+'2  1  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/gettime.c
+'3  1  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/decrypt.h
+'4  1  0  ~/Downloads/test/config_files/test5.txt
+'5  51  0  ~/Downloads/test/test_assign2.sh
+'6  305  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+'7  308  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+'8  2  6  ~/Downloads/test/pao/config_file.txt
+'9  281  8  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
 
 # Jumplist (newest first):
--'  10  17  ~/myubuntu/backup
+-'  11  0  ~/myubuntu/backup
 -'  1  0  ~/myubuntu/backup
--'  31  0  ~/.vimrc
--'  1  0  ~/.vimrc
--'  33  4  ~/.vimrc
--'  32  41  ~/.vimrc
--'  23  26  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  1  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/lyreegg.h
+-'  1  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/gettime.c
+-'  1  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/decrypt.h
+-'  1  0  ~/Downloads/test/config_files/test5.txt
+-'  51  0  ~/Downloads/test/test_assign2.sh
+-'  16  0  ~/Downloads/test/test_assign2.sh
+-'  1  0  ~/Downloads/test/test_assign2.sh
+-'  305  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
 -'  1  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
--'  46  30  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
--'  34  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
--'  1  0  ~/.vim/colors/wombat256mod.vim
--'  8  11  ~/.vimrc
--'  61  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
--'  1  0  ~/.pyenv/version
--'  1  0  ~/.zshrc
--'  103  0  ~/.zshrc
--'  187  0  ~/pyenv/README.md
--'  1  0  ~/pyenv/README.md
--'  1  0  ~/Downloads/.zshrc
--'  83  0  ~/.zshrc
--'  85  0  ~/.zshrc
--'  2  0  ~/.zshrc
--'  60  38  ~/.zshrc
--'  17  52  ~/.zshrc
--'  57  0  ~/.zshrc
--'  52  44  ~/.zshrc
--'  8  18  ~/.zshrc
--'  48  8  ~/.zshrc
--'  20  0  ~/.zshrc
--'  17  29  ~/myubuntu/backup
--'  1  0  /etc/default/grub
--'  14  25  /etc/default/grub
--'  18  25  /etc/default/grub
--'  40  0  /etc/default/grub
--'  1  0  /etc/X11/Xwrapper.config
--'  1  0  ~/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  /etc/X11/Xwrapper.config
--'  1  0  ~/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  16  25  /etc/default/grub
--'  38  0  /etc/default/grub
--'  1  0  /etc/X11/Xwrapper.config
--'  1  0  ~/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  /etc/X11/Xwrapper.config
--'  1  0  ~/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.gitconfig
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  1  0  ~/myubuntu/myubuntu/.inputrc
--'  34  41  ~/.vimrc
--'  23  26  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
--'  31  0  ~/.vimrc
--'  1  0  ~/.vimrc
--'  33  4  ~/.vimrc
+-'  308  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  2  6  ~/Downloads/test/pao/config_file.txt
+-'  1  0  ~/Downloads/test/pao/config_file.txt
+-'  281  8  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  5  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  369  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  23  84  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  130  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  142  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  143  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  159  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  160  8  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  168  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  169  12  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  182  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  183  8  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  190  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  191  12  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  170  4  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  302  12  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  301  12  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  1  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.
+-'  1  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main
+-'  140  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  304  8  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  138  4  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  80  19  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  357  4  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  46  16  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  157  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  94  12  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  2  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/myallocate.c
+-'  1  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/myallocate.c
+-'  103  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  115  8  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  367  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  33  4  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  34  4  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  76  18  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  368  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  332  24  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  73  11  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  344  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  364  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  521  1  ~/Downloads/test/pao/memwatch.log
+-'  1  0  ~/Downloads/test/pao/memwatch.log
+-'  66  95  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  53  96  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  70  15  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  59  16  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  363  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  358  36  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  352  97  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  340  97  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  333  28  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  262  34  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  257  44  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  254  19  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  250  34  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  237  92  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  203  14  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  202  10  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  165  95  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  156  97  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  122  4  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  121  22  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  110  87  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  84  64  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  79  10  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  58  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  87  4  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  282  18  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  268  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  26  4  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  43  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  98  27  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  259  29  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  171  36  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  85  9  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  27  29  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  1  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.
+-'  1  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main
+-'  383  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  184  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  185  8  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  194  0  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  195  12  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+-'  306  12  ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
 
 # History of marks within files (newest to oldest):
 
 > ~/myubuntu/backup
-	"	10	17
+	"	11	0
 	^	8	18
 	.	8	17
 	+	17	29
@@ -176,6 +189,660 @@
 	+	14	15
 	+	15	14
 	+	8	17
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/lyreegg.h
+	"	1	0
+	^	19	20
+	.	17	0
+	+	19	19
+	+	15	0
+	+	17	0
+
+> ~/Downloads/test/your_messages/test5.txt
+	"	8	0
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/lyreegg.c
+	"	24	80
+	^	24	81
+	.	24	80
+	+	16	0
+	+	15	57
+	+	28	0
+	+	21	0
+	+	28	0
+	+	21	56
+	+	26	0
+	+	24	48
+	+	25	16
+	+	27	21
+	+	28	46
+	+	10	0
+	+	10	20
+	+	13	21
+	+	23	25
+	+	24	80
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/gettime.c
+	"	1	0
+	^	2	0
+	.	1	20
+	+	1	20
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/gettime.h
+	"	16	0
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/decrypt.h
+	"	1	0
+	.	16	0
+	+	16	0
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/decrypt.c
+	"	88	0
+
+> ~/Downloads/test/config_files/test5.txt
+	"	1	0
+	^	1	11
+	.	1	10
+	+	1	10
+
+> ~/Downloads/test/test_assign2.sh
+	"	51	0
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
+	"	305	0
+	^	269	0
+	.	305	0
+	+	76	0
+	+	76	0
+	+	76	29
+	+	76	28
+	+	76	46
+	+	76	48
+	+	76	0
+	+	76	21
+	+	76	0
+	+	76	17
+	+	76	0
+	+	115	49
+	+	115	30
+	+	76	21
+	+	76	17
+	+	76	17
+	+	76	17
+	+	76	17
+	+	76	17
+	+	76	25
+	+	115	13
+	+	76	19
+	+	76	0
+	+	76	18
+	+	115	0
+	+	115	4
+	+	77	0
+	+	115	56
+	+	115	4
+	+	115	0
+	+	34	0
+	+	34	0
+	+	115	0
+	+	115	8
+	+	115	0
+	+	115	46
+	+	145	0
+	+	131	36
+	+	133	74
+	+	144	0
+	+	140	24
+	+	133	1
+	+	140	1
+	+	144	1
+	+	94	47
+	+	94	21
+	+	28	1
+	+	115	1
+	+	28	0
+	+	94	0
+	+	115	0
+	+	160	0
+	+	133	0
+	+	140	0
+	+	144	0
+	+	140	26
+	+	141	97
+	+	143	0
+	+	143	15
+	+	132	12
+	+	139	14
+	+	139	13
+	+	139	14
+	+	138	0
+	+	138	0
+	+	309	12
+	+	309	0
+	+	296	0
+	+	291	15
+	+	282	0
+	+	305	0
+	+	282	0
+	+	291	28
+	+	295	28
+	+	304	0
+	+	298	0
+	+	304	0
+	+	300	39
+	+	301	23
+	+	301	0
+	+	300	0
+	+	312	0
+	+	267	0
+	+	268	0
+	+	143	0
+	+	143	96
+	+	160	11
+	+	169	0
+	+	183	0
+	+	143	0
+	+	23	84
+	+	182	0
+	+	190	0
+	+	262	0
+	+	261	87
+	+	257	0
+	+	364	0
+	+	306	0
+	+	269	0
+	+	305	0
+	v	21	1
+
+> ~/Downloads/test/pao/config_file.txt
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	11
+	+	2	0
+	+	1	3
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.
+	"	1	0
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main
+	"	1	0
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/myallocate.c
+	"	2	0
+	^	2	1
+	.	2	0
+	+	2	0
+
+> ~/Downloads/test/pao/memwatch.log
+	"	521	1
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment02/main.c
+	"	51	8
+	^	107	17
+	.	107	16
+	+	107	16
+
+> ~/Downloads/test/your_output/test3_file1.txt
+	"	1	0
+
+> ~/Downloads/test/test3.txt
+	"	1	10
+	^	1	11
+	.	1	10
+	+	1	0
+	+	10	0
+	+	1	10
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/Makefile
+	"	14	26
+	^	14	27
+	.	14	26
+	+	20	29
+	+	17	34
+	+	13	16
+	+	14	26
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/timeFormat.h
+	"	11	14
+	^	11	15
+	.	11	14
+	+	1	0
+	+	18	26
+	+	17	0
+	+	14	0
+	+	10	14
+	+	11	14
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/timeFormat.c
+	"	5	0
+	.	9	0
+	+	1	0
+	+	9	0
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment02/decrypt.c
+	"	67	0
+	^	84	21
+	.	84	20
+	+	67	12
+	+	84	20
+
+> ~/Downloads/test/pao/main.c
+	"	390	14
+	^	390	15
+	.	390	14
+	+	260	0
+	+	125	0
+	+	83	0
+	+	125	0
+	+	83	21
+	+	127	0
+	+	162	0
+	+	283	29
+	+	105	0
+	+	50	0
+	+	69	0
+	+	135	0
+	+	153	0
+	+	224	0
+	+	248	0
+	+	97	23
+	+	105	0
+	+	103	16
+	+	102	0
+	+	101	30
+	+	104	23
+	+	113	0
+	+	112	24
+	+	95	28
+	+	395	0
+	+	396	0
+	+	393	0
+	+	397	0
+	+	394	0
+	+	397	16
+	+	406	0
+	+	401	35
+	+	399	36
+	+	403	0
+	+	402	28
+	+	404	21
+	+	381	0
+	+	381	0
+	+	381	19
+	+	382	0
+	+	381	20
+	+	405	20
+	+	141	0
+	+	138	0
+	+	136	40
+	+	139	0
+	+	141	0
+	+	134	0
+	+	152	0
+	+	211	0
+	+	196	67
+	+	212	0
+	+	247	22
+	+	63	100
+	+	201	27
+	+	202	27
+	+	201	36
+	+	202	36
+	+	224	0
+	+	229	0
+	+	226	0
+	+	224	40
+	+	227	0
+	+	229	0
+	+	175	37
+	+	176	0
+	+	221	0
+	+	390	14
+
+> ~/Downloads/test/pao/data/t2output
+	"	3	0
+
+> ~/Downloads/test/pao/data/58.output
+	"	1	0
+
+> ~/Downloads/test/pao/Makefile
+	"	27	14
+	^	27	15
+	.	27	14
+	+	27	14
+
+> ~/Downloads/clean/main.c
+	"	235	4
+	^	18	21
+	.	239	0
+	+	18	20
+	+	239	0
+
+> ~/Downloads/test/config_files/test1.txt
+	"	1	0
+
+> ~/Downloads/test/config_files/test6.txt
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
+
+> ~/Downloads/test/config_files/test4.txt
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
+
+> ~/Downloads/test/config_files/test3.txt
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
+
+> ~/Downloads/test/config_files/test2.txt
+	"	1	10
+	^	1	11
+	.	1	11
+	+	1	11
+
+> ~/Downloads/clean/test3_out_file9.txt
+	"	356	0
+
+> ~/Downloads/clean/test3_out_file1.txt
+	"	12391	0
+
+> ~/Downloads/clean/test3.txt
+	"	10	6
+	.	10	6
+	+	2	0
+	+	10	0
+	+	10	19
+	+	2	6
+	+	10	6
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment02/lyreegg.c
+	"	26	0
+
+> ~/Downloads/clean/lyreegg.c
+	"	27	4
+
+> ~/Downloads/clean/Makefile
+	"	20	0
+
+> ~/Downloads/test3.txt
+	"	2	16
+	^	1	11
+	.	1	10
+	+	1	4
+	+	2	0
+	+	1	10
+
+> ~/Downloads/main.c
+	"	193	12
+	^	164	46
+	.	164	45
+	+	160	70
+	+	33	18
+	+	230	31
+	+	232	43
+	+	228	43
+	+	229	41
+	+	230	30
+	+	160	0
+	+	157	0
+	+	160	0
+	+	156	21
+	+	157	0
+	+	156	69
+	+	157	0
+	+	169	12
+	+	169	12
+	+	169	13
+	+	170	0
+	+	169	0
+	+	157	0
+	+	169	0
+	+	157	0
+	+	232	42
+	+	160	0
+	+	158	50
+	+	159	0
+	+	160	0
+	+	161	0
+	+	164	45
+
+> ~/Downloads/main
+	"	1	0
+
+> ~/Downloads/mian.c
+	"	1	0
+
+> ~/main.c
+	"	1	0
+
+> ~/Downloads/try/main.c
+	"	266	0
+	^	214	35
+	.	214	34
+	+	247	7
+	+	248	7
+	+	248	12
+	+	249	12
+	+	250	9
+	+	254	8
+	+	214	0
+	+	218	23
+	+	40	38
+	+	214	46
+	+	215	20
+	+	248	31
+	+	253	0
+	+	252	20
+	+	251	33
+	+	248	52
+	+	215	34
+	+	249	14
+	+	218	37
+	+	203	23
+	+	205	23
+	+	207	71
+	+	218	54
+	+	245	0
+	+	219	24
+	+	45	38
+	+	50	48
+	+	49	39
+	+	114	0
+	+	130	0
+	+	158	0
+	+	160	0
+	+	219	54
+	+	223	0
+	+	222	0
+	+	221	66
+	+	222	76
+	+	244	0
+	+	225	70
+	+	226	43
+	+	243	31
+	+	254	0
+	+	207	43
+	+	207	0
+	+	211	0
+	+	206	34
+	+	212	0
+	+	208	0
+	+	210	0
+	+	138	40
+	+	138	0
+	+	138	25
+	+	138	0
+	+	150	0
+	+	139	0
+	+	138	28
+	+	142	15
+	+	143	16
+	+	142	53
+	+	141	64
+	+	142	0
+	+	149	0
+	+	148	28
+	+	227	57
+	+	114	0
+	+	39	0
+	+	227	67
+	+	228	0
+	+	227	71
+	+	228	43
+	+	231	0
+	+	230	0
+	+	229	0
+	+	242	0
+	+	231	0
+	+	236	0
+	+	241	0
+	+	240	0
+	+	240	0
+	+	238	0
+	+	231	77
+	+	257	0
+	+	255	0
+	+	133	37
+	+	135	0
+	+	134	43
+	+	207	32
+	+	16	17
+	+	214	33
+	+	216	35
+	+	206	31
+	+	228	61
+	+	140	24
+	+	146	0
+	+	145	37
+	+	227	66
+	+	228	0
+	+	135	76
+	+	136	62
+	+	214	34
+
+> ~/Downloads/try.c
+	"	7	12
+	^	7	13
+	.	7	12
+	+	8	0
+	+	8	11
+	+	3	9
+	+	8	0
+	+	4	24
+	+	6	0
+	+	5	22
+	+	4	14
+	+	1	17
+	+	7	12
+
+> ~/Downloads/try/main
+	"	1	0
+
+> ~/Downloads/try/main_back.c
+	"	176	4
+	^	76	0
+	.	96	0
+	+	99	0
+	+	96	0
+	+	94	0
+	+	57	0
+	+	55	18
+	+	76	0
+	+	77	0
+	+	96	0
+
+> ~/Assignments/CMPT300_Assignment/.gitignore
+	"	6	4
+	^	6	5
+	.	6	4
+	+	6	4
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment02/haha.txt
+	"	2	0
+	^	2	0
+	.	1	5
+	+	1	5
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment02/Makefile
+	"	2	0
+	^	20	29
+	.	20	28
+	+	17	33
+	+	20	28
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment02/make
+	"	1	0
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment02/makefile
+	"	1	0
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment02/main
+	"	1	0
+
+> ~/Downloads/your_messages/test5.txt
+	"	1	0
+
+> ~/Downloads/correct_messages/test5.txt
+	"	1	0
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment02/decrypt.
+	"	1	0
+
+> ~/Downloads/encrypted_files/test3_file7.txt
+	"	1	0
+
+> ~/Downloads/correct_output/test3_file7.txt
+	"	1	139
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment02/test3_out_file7.txt
+	"	1	0
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment02/test3.txt
+	"	1	25
+	^	1	26
+	.	1	25
+	+	1	0
+	+	2	0
+	+	1	25
+
+> ~/Downloads/your_output/test3_file7.txt
+	"	1	143
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment02/test2_file1.txt
+	"	3	53
+
+> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment02/test2.txt
+	"	1	30
+	^	1	31
+	.	1	30
+	+	1	30
+
+> ~/Downloads/encrypted_files/test2_file1.txt
+	"	1	1
+
+> ~/Downloads/your_output/test2_file1.txt
+	"	1	0
+
+> ~/Downloads/correct_output/test2_file1.txt
+	"	1	0
+
+> ~/Downloads/your_messages/test2.txt
+	"	2	0
+
+> ~/Downloads/your_messages/test1.txt
+	"	1	0
+
+> ~/Downloads/your_messages/test
+	"	1	0
+
+> ~/Downloads/README.txt
+	"	81	0
 
 > ~/.vimrc
 	"	31	0
@@ -200,14 +867,6 @@
 	+	32	0
 	+	33	0
 	+	31	36
-
-> ~/Assignments/CMPT300_Assignment/CMPT300_Assignment03/main.c
-	"	23	26
-	^	45	31
-	.	45	30
-	+	59	0
-	+	46	28
-	+	45	30
 
 > ~/Downloads/.vimrc
 	"	1	0
